@@ -53,7 +53,7 @@ body {
   line-height: 1.5;
   text-align: left;
   letter-spacing: .05em;
-  color: #DDDDDD;
+  color: #333;
 }
 
 /*// aタグをinline要素で使うことが無いので、blockにする。*/
