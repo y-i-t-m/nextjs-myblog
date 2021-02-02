@@ -57,7 +57,6 @@ body {
 }
 
 /*// aタグをinline要素で使うことが無いので、blockにする。*/
-
 a {
   display: block;
   color: inherit;
@@ -70,7 +69,6 @@ figure {
 }
 
 /*// aタグをクリックできないので、aの中のobjectタグをpointer-eventsを切る*/
-
 a object {
   pointer-events: none;
 }
@@ -103,14 +101,12 @@ object {
 }
 
 /*//ul,olではlist-styleを表示しない。*/
-
 ul,
 ol {
   list-style-type: none;
 }
 
 /*//IE対策*/
-
 article,
 aside,
 figcaption,
@@ -135,9 +131,7 @@ em {
 }
 
 /*// Formのリセット*/
-
 /*//16px以下だとスマホで拡大されるので拡大されないように*/
-
 button,
 input,
 optgroup,
@@ -178,19 +172,16 @@ textarea {
 }
 
 /*//HTMLのdisabled要素のcursorを初期値に戻す*/
-
 [disabled] {
   cursor: default;
 }
 
 /*//HTMLのhidden属性を表示させない*/
-
 [hidden] {
   display: none !important;
 }
 
 /*//端末の設定でトランジションとアニメーションを切っている人にはアニメーションとトランジションさせない*/
-
 @media (prefers-reduced-motion: reduce) {
   *,
   ::before,
@@ -204,7 +195,6 @@ textarea {
 }
 
 /*//mouseとtouchではoutlineを表示しない*/
-
 [data-whatinput='mouse'] *:focus,
 [data-whatinput='touch'] *:focus {
   outline: none;
